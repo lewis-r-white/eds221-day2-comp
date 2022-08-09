@@ -8,4 +8,44 @@ execute:
   message: false
 ---
 
-## 
+## Vectors 
+
+```{r}
+#create a vector
+dogs <- c("teddy", "khora", "waffle", "banjo", "tallie")
+
+#check the class
+class(dogs)
+```
+
+```{r}
+#correctly create vector of integers
+cats_integer <- c(2L, 7L, 3L)
+typeof(cats_integer)
+
+#correctly create vector of doubles
+cats_double <- c(2.4, 6.9)
+typeof(cats_double)
+
+cats <- c("creamsicle wold", 14.2, 3L)
+typeof(cats) #returns characters 
+
+#can just use class()
+```
+
+```{r}
+# want to do a conditional check
+
+is.character(cats) #TRUE
+is.numeric(cats) #FALSE
+is.double(cats_double) #TRUE
+is.numeric(cats_integer) #TRUE
+```
+
+```{r}
+dog_food <- c(teddy = "purina", khora = "alpo", waffle = "fancy feast")
+
+dog_food[2]
+
+dog_food["khora"]
+```
