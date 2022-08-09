@@ -1,0 +1,11 @@
+---
+title: "Day 2 Computaitonal Session"
+author: "Lewis White"
+format: html
+editor: visual
+execute:
+  warning: false
+  message: false
+---
+
+## 
